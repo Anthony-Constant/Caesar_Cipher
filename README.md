@@ -1,44 +1,42 @@
-# Caesar_Cipher
-In cryptography, a Caesar cipher is one of the most simplest and mostly wide known techniques.  
-
 # Caesar_Cipher.py
 # Created a Caesar Cipher Encryption in Python
 # Author: Anthony Constant (AC)
 
-################################# SOME NOTES #########################################
 
-## In cryptography, a Caesar cipher is one of the most simplest and mostly wide known techniques.  
+# Notes
 
-## Encryption formula 
-## En(x) = (x + n) mod 26 
+ In cryptography, a Caesar cipher is one of the most simplest and mostly wide known techniques.  
 
-## Decryption formula 
-## Dn(x) = (x - n) mod 26
+Encryption formula 
+En(x) = (x + n) mod 26 
 
-## we use mod 26 because there are 26 letters in the alphabet.
-## in this instance x is our plaintext message respectively.
-## in this instance n is our key.
+Decryption formula 
+Dn(x) = (x - n) mod 26
 
-######################## HOW DOES IT WORK ##############################################
+we use mod 26 because there are 26 letters in the alphabet.
+in this instance x is our plaintext message respectively.
+in this instance n is our key.
 
-## It is a type of substituion cipher in which each letter in the alphabet is replaced by a letter some fixed number of positions (indexes) down the alphabet. 
+# How does it work? 
 
-## For example, with a right shift of 2, C would replace A, D would become B and so on... The method is named after Julius Caesar, who used it in his private corresponence. 
+It is a type of substituion cipher in which each letter in the alphabet is replaced by a letter some fixed number of positions (indexes) down the alphabet. 
 
-## for instance, here is a Caesar cipher using right rotation of 2 spaces below. 
+For example, with a right shift of 2, C would replace A, D would become B and so on... The method is named after Julius Caesar, who used it in his private corresponence. 
 
-## Plain:  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+for instance, here is a Caesar cipher using right rotation of 2 spaces below. 
 
-## Cipher: C D E F G H I J K L M N O P Q R S T U V W X Y Z A B
+Plain:  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
-## USE CASE: 
+Cipher: C D E F G H I J K L M N O P Q R S T U V W X Y Z A B
 
-## Plaintext: Hello
+Test case: 
+ 
+Plaintext: Hello
 
-##Ciphertext: jgnnq
+Ciphertext: jgnnq
 
-## Now the message is encrypted!
+Now the message is encrypted!🔐 
 
-############################# REFERENCES ###############################################
+# REFERENCES 
 
 ## https://en.wikipedia.org/wiki/Caesar_cipher
