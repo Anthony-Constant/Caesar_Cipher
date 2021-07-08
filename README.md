@@ -19,7 +19,7 @@ in this instance n is our key.
 
 # How does it work? 
 
-It is a type of substituion cipher in which each letter in the alphabet is replaced by a letter some fixed number of positions (indexes) down the alphabet. 
+It is a type of substitution cipher in which each letter in the alphabet is replaced by a letter some fixed number of positions (indexes) down the alphabet. 
 
 For example, with a right shift of 2, C would replace A, D would become B and so on... The method is named after Julius Caesar, who used it in his private correspondence. 
 
